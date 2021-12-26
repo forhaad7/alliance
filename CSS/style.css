@@ -1,0 +1,247 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+body{
+	background: beige;
+	font-family: 'Lobster', cursive;
+	font-family: 'Poppins', sans-serif;
+}
+.clear{
+	clear: both;
+}
+
+#navigation{
+	margin-bottom: 2px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/*navigation bar start*/
+.logo{
+	width: 20%;
+	float: left;
+}
+
+.logo img{
+	height: 60px;
+	margin: 5px 0 0px 0;
+}
+.nav{
+	width: 80%;
+		float: right;
+
+}
+.nav ul{
+	display: inline-flex;
+	float: right;
+}
+
+.nav ul li{
+	line-height: 70px;
+	padding: 0px 25px;
+	color: black;
+}
+.nav ul a{
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.nav ul li:hover a{
+	border-bottom: 2px solid green;
+	color: green;
+}
+
+
+/*navigation bar end*/
+
+
+
+
+/*Banner start*/
+
+.bannerimg{
+	background-image: url('../images/02.jpg'), url('../images/03.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 600px;
+	}
+
+/*text start*/
+
+.texth h3{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Lobster', cursive;
+}
+
+.texth h1{
+ font-size: 40px;
+ color: green;
+ text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+
+ 
+}
+
+.texth p{
+ font-size: 20px;
+ line-height: 25px;
+}
+
+
+.container h4{
+	text-align: center;
+	line-height: 35px;
+}
+
+/* Home menu end.*/
+
+.bannerabout{
+	background-image: url('../images/aboutus.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 350px;
+	}
+
+	.profile{
+		width: 48%;
+		float: left;
+		margin-right: 2%: 
+	}
+
+	.profile h3{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Lobster', cursive;
+}
+
+.profile h1{
+ font-size: 40px;
+ color: green;
+ text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profile p{
+ font-size: 20px;
+ line-height: 25px;
+}
+
+
+
+.massages{
+		width: 47%;
+		float: right; 
+	}
+
+	.massages h3{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Lobster', cursive;
+}
+
+.massages h1{
+ font-size: 40px;
+ color: green;
+ text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+
+ 
+}
+
+.massages p{
+ font-size: 20px;
+ line-height: 25px;
+}
+
+
+
+	.mission{
+		width: 48%;
+		float: left;
+		margin-top: 30px;
+	}
+
+	.mission h3{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Lobster', cursive;
+}
+
+.mission h1{
+ font-size: 40px;
+ color: green;
+ text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.mission p{
+ font-size: 20px;
+ line-height: 25px;
+}
+
+
+
+
+.bannercomplinace{
+	background-image: url('../images/com.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 350px;
+	}
+
+.compliance{
+		
+	}
+
+	.compliance h3{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Lobster', cursive;
+}
+
+.compliance h1{
+ font-size: 40px;
+ color: green;
+ text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.compliance p{
+ font-size: 20px;
+ line-height: 25px;
+}
+
+.footer{
+	height: 35px;
+	width: 100%;
+	background-color: green;
+}
+

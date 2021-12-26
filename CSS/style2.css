@@ -1,0 +1,40 @@
+
+.gellaryphoto{
+	background-image: url('../images/gellary.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 350px;
+	}
+
+.gellaryphoto{
+		
+	}
+
+	.gellaryphotocc h3{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Lobster', cursive;
+}
+
+.gellaryphotocc h1{
+ font-size: 40px;
+ color: green;
+ text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.imgeeee{
+	width: 31%;
+	margin: 1%;
+	float: left;
+
+}
+
+.imgeeee img{
+	width: 100%;
+	width: 100%;
+}
+
